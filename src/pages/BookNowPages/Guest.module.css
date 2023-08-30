@@ -1,0 +1,71 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.wrapper {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.heading {
+  margin-bottom: 10px;
+  background-color: #5FCFE3;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.Signin-text {
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  
+}
+
+.input-control {
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.label {
+  font-size: 17px;
+  line-height: 37px;
+  color: #5FCFE3;
+}
+
+.input-field {
+  width: 430px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.EMilabel {
+  font-size: 17px;
+  line-height: 37px;
+  color: #5FCFE3;
+}
+
+.label-field {
+  width: 430px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+
+
+
+  

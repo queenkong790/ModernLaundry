@@ -1,0 +1,69 @@
+.body {
+    margin: 0;
+    padding: 0;
+    
+    
+    display: flex;
+    justify-content:right;
+    float: right;
+    position: fixed;
+    top: 35%;
+    right: 6px;
+    transform: translateY(-50%);
+   
+    
+    
+    
+    
+   
+    
+    
+   
+  }
+  
+  input[type=search] {
+    width: 0px;
+    padding: 10px 40px 10px 10px;
+    border:#fff solid 2px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-image: url(https://modernlaundry.net/images/search-12-xxl.png);
+    background-color: white;
+    transition: 0.5s all ease-in-out;
+    filter: brightness(100%);
+    border: 1px solid  #67cbdf;
+
+    
+    cursor: pointer;
+  }
+  
+  input[type=search]:focus,
+  input[type=search]:not(:placeholder-shown) {
+    width: 350px;
+    background-color: #fff;
+    filter: brightness(100%);
+    background-position: 2% 50%;
+    padding-left: 50px;
+    outline: none;
+  }
+  ul {
+    position:inherit;
+    top: 50px;
+    right: 20px;
+    list-style: none;
+    background-color: white;
+   
+    margin-right: 20px;
+    max-width: 300px !important;
+  
+    
+      list-style-type:none;
+      font-size: 19px !important;
+      color: #38A5BA !important;
+      text-transform: none !important;
+      cursor: pointer;
+  }
+  

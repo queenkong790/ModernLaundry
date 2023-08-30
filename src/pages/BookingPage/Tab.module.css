@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    .navbar {
+      flex-direction: column; /* Stack the links vertically */
+      align-items: center; /* Center the links horizontally */
+      text-align: center; /* Center the text within each link */
+    }
+  
+    .navbar a {
+      margin-top: 10px; /* Add some spacing between the links */
+    }
+  }

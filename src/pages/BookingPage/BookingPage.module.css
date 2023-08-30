@@ -1,0 +1,47 @@
+.search{
+   margin-left: 10px;
+}
+
+
+.cart{
+   position: fixed;
+   right: 100px;
+   bottom: 190px;
+   z-index: 9999;
+   background-color: #38a5b9;
+   width: 45px;
+   height: 45px;
+   display: block;
+   border-radius: 50%;
+   text-align: center;
+   padding-top: 8px;
+}
+.cartcount{
+   position: absolute;
+   top: -20px;
+   right: -10px;
+   color: #ffff;
+   background-color: #38a5b9;
+   border-radius: 50%;
+   font-size: 14px;
+   font-weight: 500;
+   width: 25px;
+   height: 25px;
+   text-align: center;
+   padding-top: 3px;
+}
+
+.para{
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+   .body{
+       margin: 0;
+       padding: 0;
+   }
+   .cart{
+       right: 10px;
+   }
+
+}  

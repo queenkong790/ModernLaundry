@@ -1,0 +1,41 @@
+.datecontainer{
+   
+    padding: 1px;
+    
+}
+.col{
+    
+}
+.calicon{
+    background-color: #67cbdf;
+    padding: 11px 11px 11px 11px;
+    margin-bottom: -11px;
+    color: white;
+    cursor: pointer;
+}
+
+.date{
+    
+    border: 1px solid #67cbdf;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:0px ;
+    position: relative;
+    cursor: pointer;
+    
+}
+.label{
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom:0;
+    margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .date{
+        width: 150px;
+    }
+    .label{
+        margin-bottom: 4px;
+    }
+}

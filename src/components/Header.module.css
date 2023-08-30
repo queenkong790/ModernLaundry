@@ -1,0 +1,132 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    padding-bottom: 6px;
+    background-color: white;
+    top: 0;
+    position: sticky;
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    z-index: 100;
+  }
+ 
+  .siteLogo {
+    text-decoration: none;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  
+  .navLink {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #939393;
+    font-size: 16px;
+  }
+
+  .navLink:hover{
+    color: #60D0E4;
+  }
+  
+  .activeNavLink {
+    font-size: 16px;
+    border-bottom: 2px solid #67cbdf;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin-right: 25px;
+    color: #939393;
+  }
+
+  .activeNavLink:hover {
+    color: #60D0E4;
+  }
+  
+  .navbarLogos {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  .hamburger{
+    display: none;
+    cursor: pointer;
+    border: white;
+    background-color: white;
+  }
+  .bar{
+    display:block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition:all 0.3s ease-in-out ;
+    transition:all 0.3s ease-in-out ;
+    background-color: grey;
+
+  }
+  @media screen and (max-width: 768px) {
+    
+    .navbar{
+      display: none;
+    
+    }
+    
+    .navLink{
+      
+      margin-bottom: 10px; /* Add some spacing between NavLinks */
+    }
+    .hamburger{
+      display: block;
+      
+      
+    }
+    .navbar{
+    display: none;
+       
+    }
+    .navbar.open {
+      display: flex;
+      flex-direction: column;
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 60%;
+      overflow-y: auto;
+      background-color: #ffffff;
+      z-index: 100 ;
+      transition: 0.3s;
+      text-align: right;
+      align-items: flex-end;
+      justify-content: right;
+      height:100vh;
+    }
+    
+  
+    .hamburger.activeham .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.activeham .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.activeham .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    
+
+  }
+  
+  @media screen and (max-width: 576px) {
+    .header{
+      padding-top: 36px;
+      padding-bottom: 26px;
+    }
+  }

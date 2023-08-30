@@ -1,0 +1,72 @@
+.head{
+  background-image:url('../../assets/bg.png');
+  background-repeat: repeat;
+  font-weight: 700;
+	color: white ;
+	font-size: 14px;
+	text-align: left;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.container{
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+label{
+  color: #5fcfe3;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.buttons {
+  background-color: #67cbdf;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-transform: uppercasel;
+    border: none;
+    color: white;
+    padding: 8px 80px 8px 80px;
+    font-size: 18px;
+    cursor: pointer;
+    border: solid 2px #67cbdf;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.buttons:hover{
+  background-color: white;
+  color: #67cbdf;
+}
+
+/* .buttons3 {
+  background-color: #67cbdf;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-transform: uppercasel;
+    border: none;
+    color: white;
+    padding: 8px 40px 8px 40px;
+    font-size: 18px;
+    cursor: pointer;
+    border: solid 2px #67cbdf;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.buttons3:hover{
+  background-color: white;
+  color: #67cbdf;
+} */
+
+.section
+{
+  border: 1px solid rgb(202, 199, 199);
+}
+@media screen and (max-width: 550px) {
+  .container{
+    
+    padding: 0%;
+     /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  
+}

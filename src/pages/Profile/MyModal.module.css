@@ -1,0 +1,42 @@
+.custom-modal-body {
+  max-width: 100%; /* Set the maximum width to 100% */
+  max-height: 100%; /* Set the maximum height to 100% */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+.popup_tb1 {
+  width: 100%; /* Set the width to 100% */
+  height: auto; /* Remove fixed height */
+  color: #5FC3FE;
+  line-height: 30.5px;
+  margin-bottom: 15px;
+}
+
+.final-table1 {
+  width: 100%; /* Set the width to 100% */
+}
+
+.frm-fld-tabletd1 {
+  padding-right: 5px;
+  color: white;
+}
+
+.frm-fld-tabletd2 {
+  color: #5FC3FE;
+  margin-bottom: 35px;
+}
+
+.frm-fld-tabletd3 {
+  color: #64b8e8;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19.5px;
+}
+
+@media screen and (max-width: 576px) {
+  .frm-fld-tabletd1,
+  .frm-fld-tabletd2,
+  .frm-fld-tabletd3 {
+    font-size: 13px; /* Set the desired font size for small screens */
+  }
+}

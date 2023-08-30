@@ -1,0 +1,81 @@
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.row{
+    align-items: center;
+    
+    margin: 90px ;
+    
+    
+}
+.serviceimg{
+    
+    height:700px
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+h2{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    color: blue;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+.serviceTypes{
+    display: flex;
+    
+}
+.btn{
+    background-color:white ;
+    -webkit-border-radius: 20px;
+    border-radius: 15px;
+    text-transform: uppercasel;
+    border: none;
+    color: #67cbdf;
+    padding: 8px 20px 8px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: solid 2px #67cbdf;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.btn:hover{
+    background-color: #67cbdf;
+  color: #ffffff;
+}
+.btnparent{
+    text-align:center
+}
+.hotels{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 768px){
+    .row{
+        margin: 0;
+    }
+    .serviceimg{
+        width: 100%;
+        height: auto;
+    }
+    .hotels{
+        flex-direction: column;
+    }
+}
